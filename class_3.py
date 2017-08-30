@@ -7,7 +7,7 @@ class Evil:
         self.stealing = stealing
 
         for key, value in kwargs.items():                         // This allow you to add new information in your Class
-            setattr(self,key,value)                               // Set Attribute with anything, add anything you like
+            setattr(self,key,value)                               // Set Attribute with anything, add anything you like //CONSTANT
 
     def stealing_time(self):
         return self.stealing and bool(random.randint(0,1))
